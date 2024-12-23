@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|
+  Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ysabeau+SC:wght@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@700&family=Ysabeau+SC:wght@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topSection">
+        <div class="scroll-btn"> <!-- Scroll to the buttom -->
+            <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="header1">
+            <div class="left-content">
+
+                <i class="fa-solid fa-cloud-sun fa-xl"></i>
+                <span class="date">Loading date...</span>
+            </div>
+            <div class="right-content">
+
+                <a href="index.html">SignIn /</a>
+                <a href="signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end of top section -->
+    <!-- header -->
+    <div class="header2">
+        <span class="portal1" data-text="PORTAL1">PORTAL1</span>
+        <span class="image-container">
+            <a href="#" style="cursor: pointer;">
+                <img src="./assets/ad/Rectangle 3.png" alt="Image" class="image"></a>
+            <div class="button-overlay">
+                <button class="button">
+                    <span class="icon">&#9654;</span> View More
+                </button>
+            </div>
+        </span>
+    </div>
+    <!-- end  -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">PORTAL1</div>
+            <ul class="menu">
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">FASHION &nbsp;</a> <i class="fa-solid fa-caret-down fa-xl " style="color: white;"></i>
+                </li>
+                <li><a href="#">GADGETS &nbsp; </a><i class="fa-solid fa-caret-down fa-xl " style="color: white;"></i>
+                </li>
+                <li><a href="#">LIFESTYLES</a></li>
+                <li><a href="#">VIDEO</a></li>
+                <li><a href="#">FEATURES &nbsp; </a><i class="fa-solid fa-caret-down fa-xl " style="color: white;"></i>
+                </li>
+            </ul>
+            <i id="searchIcon" class="fas fa-search"></i>
+            <div class="burger-menu" onclick="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+        </nav>
+
+    </header>
+    <!-- header done -->
+    <!-- index form -->
+
+    <div class="login-container">
+        <form action="">
+            <div class="sign1">SIGN IN</div>
+            <div class="welcome">Welcome ! Log in to your Account</div>
+            <div class="Rectangle132"> </div>
+            <div class="input-container">
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="Rectangle132"> </div>
+            <div class="input-container">
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="Rectangle134"></div>
+            <div class="Yourlogin">
+                <button type="submit">Log In</button>
+            </div>
+        </form>
+
+        <div class="ForgotYourPasswordGetHelp">Forgot Your Password ? Get help</div>
+        <div class="OrSignUpUsing">Or Sign Up using</div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <g clip-path="url(#clip0_56_103)">
+                <path
+                    d="M28 14C28 6.26806 21.7319 0 14 0C6.26806 0 0 6.26795 0 14C0 20.9877 5.11963 26.7797 11.8125 27.8299V18.0469H8.25781V14H11.8125V10.9156C11.8125 7.40687 13.9027 5.46875 17.1005 5.46875C18.6322 5.46875 20.2344 5.74219 20.2344 5.74219V9.1875H18.4691C16.7298 9.1875 16.1875 10.2667 16.1875 11.3739V14H20.0703L19.4496 18.0469H16.1875V27.8299C22.8804 26.7797 28 20.9879 28 14Z"
+                    fill="#1877F2" />
+                <path
+                    d="M19.4496 18.0469L20.0703 14H16.1875V11.3739C16.1875 10.2666 16.7299 9.1875 18.4691 9.1875H20.2344V5.74219C20.2344 5.74219 18.6322 5.46875 17.1005 5.46875C13.9027 5.46875 11.8125 7.40688 11.8125 10.9156V14H8.25781V18.0469H11.8125V27.8299C12.5361 27.9433 13.2675 28.0002 14 28C14.7325 28.0002 15.4639 27.9434 16.1875 27.8299V18.0469H19.4496Z"
+                    fill="white" />
+            </g>
+            <defs>
+                <clipPath id="clip0_56_103">
+                    <rect width="28" height="28" fill="white" />
+                </clipPath>
+            </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <path
+                d="M27.2569 12.5519H26.25V12.5H15V17.5H22.0644C21.0338 20.4106 18.2644 22.5 15 22.5C10.8581 22.5 7.5 19.1419 7.5 15C7.5 10.8581 10.8581 7.5 15 7.5C16.9119 7.5 18.6513 8.22125 19.9756 9.39937L23.5112 5.86375C21.2787 3.78312 18.2925 2.5 15 2.5C8.09688 2.5 2.5 8.09688 2.5 15C2.5 21.9031 8.09688 27.5 15 27.5C21.9031 27.5 27.5 21.9031 27.5 15C27.5 14.1619 27.4137 13.3438 27.2569 12.5519Z"
+                fill="#FFC107" />
+            <path
+                d="M3.94116 9.18188L8.04804 12.1938C9.15929 9.4425 11.8505 7.5 14.9999 7.5C16.9118 7.5 18.6512 8.22125 19.9755 9.39937L23.5112 5.86375C21.2787 3.78312 18.2924 2.5 14.9999 2.5C10.1987 2.5 6.03491 5.21062 3.94116 9.18188Z"
+                fill="#FF3D00" />
+            <path
+                d="M15 27.4999C18.2287 27.4999 21.1625 26.2643 23.3806 24.2549L19.5118 20.9812C18.2147 21.9677 16.6296 22.5012 15 22.4999C11.7487 22.4999 8.98808 20.4268 7.94808 17.5337L3.87183 20.6743C5.94058 24.7224 10.1418 27.4999 15 27.4999Z"
+                fill="#4CAF50" />
+            <path
+                d="M27.2569 12.5519H26.25V12.5H15V17.5H22.0644C21.5714 18.8853 20.6833 20.0957 19.51 20.9819L19.5119 20.9806L23.3806 24.2544C23.1069 24.5031 27.5 21.25 27.5 15C27.5 14.1619 27.4137 13.3438 27.2569 12.5519Z"
+                fill="#1976D2" />
+        </svg>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="column-1">
+            <h3 style="color: white;">EDITOR PICKS</h3> <br>
+            <div class="row-1">
+                <div class="content-1f">
+                    <img src="./assets/imgs/chairs.png" alt="Image 1">
+                    <p>Travel can be done by foot, <br>bicycle, automobile, train.</p>
+                </div>
+                <small>Aug 27,2023.</small>
+            </div>
+
+            <div class="row-1">
+                <div class="content-1f">
+                    <img src="./assets/imgs/stools.png" alt="Image 1">
+                    <p>Travel can be done by foot, <br>bicycle, automobile, train.</p>
+                </div>
+                <small>Aug 27,2023.</small>
+            </div>
+
+            <div class="row-1">
+                <div class="content-1f">
+                    <img src="./assets/imgs/chairs.png" alt="Image 1">
+                    <p>Travel can be done by foot, <br>bicycle, automobile, train.</p>
+                </div>
+                <small>Aug 27,2023.</small>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <h3>POPULAR POSTS</h3> <br>
+            <div class="row-1">
+                <div class="content-1f">
+                    <img src="./assets/imgs/chairs.png" alt="Image 1">
+                    <p>Travel can be done by foot, <br>bicycle, automobile, train.</p>
+                </div>
+                <small>Aug 27,2023.</small>
+            </div>
+            <div class="row-1">
+                <div class="content-1f">
+                    <img src="./assets/imgs/stools.png" alt="Image 1">
+                    <p>Travel can be done by foot, <br>bicycle, automobile, train.</p>
+                </div>
+                <small>Aug 27,2023.</small>
+            </div>
+            <div class="row-1">
+                <div class="content-1f">
+                    <img src="./assets/imgs/chairs.png" alt="Image 1">
+                    <p>Travel can be done by foot, <br>bicycle, automobile, train.</p>
+                </div>
+                <small>Aug 27,2023.</small>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <h3>POPULAR CATEGORY</h3>
+            <br>
+            <div class="row-1">
+                <div class="content-1f">
+                    <p>Racing</p>
+                    <pre>20</pre>
+                </div>
+                <div class="content-1f">
+                    <p>Travel</p>
+                    <pre>15</pre>
+                </div>
+                <div class="content-1f">
+                    <p>Interiors</p>
+                    <pre>15</pre>
+                </div>
+                <div class="content-1f">
+                    <p>Architecture</p>
+                    <pre>15</pre>
+                </div>
+                <div class="content-1f">
+                    <p>Make it modern</p>
+                    <pre>15</pre>
+                </div>
+                <div class="content-1f">
+                    <p>Decorating</p>
+                    <pre>20</pre>
+                </div>
+            </div>
+
+        </div>
+<!-- ned to wrtie in index -->
+        <div class="column1f">
+            <div class="linef"></div>
+        </div>
+        <br>
+        <div class="row2f">
+            <div class="content1f">
+                <h1>PORTAL1</h1>
+            </div>
+            <div class="content1f">
+                <h3>ABOUT US</h3> <br>
+                <p>Newspaper is your news, entertainment, music fashion website. We <br>
+                    provide you with the latest breaking
+                    news and videos straight from <br> the entertainment industry.</p>
+                <br>
+                <p>Contact us: <a href="mailto:contact@portal1.com" class="mail">contact@portal1.com</a></p>
+            </div>
+            <div class="content1f">
+                <h3 style="margin-left: 10px; margin-bottom: -8px;">FOLLOW US</h3>
+                <br>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f fa-l"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-l"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp fa-l"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="fcr">
+                <span class="cr">&copy;</span>
+                <span class="fcontent">All Copyrights reserved to protal1 -Developed by Shivarth</span>
+            </div>
+            <div class="copyright-content">
+                <span class="fs">Disclaimer</span>
+                <span class="fs">Privacy</span>
+                <span class="fs">Advertisement</span>
+                <span class="fs">Contact us</span>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.querySelector("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+        const burgerMenu = document.querySelector(".burger-menu");
+        const menu = document.querySelector(".menu");
+    
+        burgerMenu.addEventListener("click", function () {
+            menu.classList.toggle("show-menu");
+        });
+    });
+    </script>
+
+    <script>
+        function updateDate() {
+            const dateElement = document.querySelector('.date');
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = ` ${now.toLocaleDateString('en-US', options)}`;
+        }
+        updateDate();
+    </script>
+</body>
+
+</html>
